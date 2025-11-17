@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Street Art Exhibition | SKYPPGALLERY</title>
+    <link rel="stylesheet" href="globals.css" />
+  </head>
+  <body class="font-sans bg-neutral text-neutral-foreground">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-transparent">
+      <nav class="max-w-screen-xl mx-auto px-8 py-6 flex justify-between items-center">
+        <div class="text-navbar-text font-heading text-2xl font-bold tracking-heading">
+          SKYPPGALLERY
+        </div>
+        <div class="flex gap-12">
+          <a href="#menu" class="text-navbar-text text-xl font-normal hover:opacity-80 transition-opacity">MENU</a>
+          <a href="#footer" class="text-navbar-text text-xl font-normal hover:opacity-80 transition-opacity">CONTACT</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section with Background Image -->
+      <section id="hero" class="relative min-h-screen">
+        <img
+          src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6547.jpeg"
+          alt="art gallery interior"
+          class="w-full h-screen object-cover"
+          loading="eager"
+        />
+        <div class="w-full px-8 py-12 max-w-screen-xl mx-auto bg-neutral">
+          <h1 class="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-primary tracking-heading leading-heading mb-12 uppercase">
+            STREET ART EXHIBITION
+          </h1>
+          <p class="text-primary text-lg md:text-xl leading-relaxed max-w-5xl">
+            NOUS AVONS LE PLAISIR D'EXPOSER LES CRÉATIONS DE TROIS ARTISTES INCONTOURNABLES : SLAWN, KAWS ET SOLDIERBOYFRIEND.<br>
+            CHACUN APPORTE SON UNIVERS UNIQUE ENTRE AUDACE CONTEMPORAINE, POP CULTURE ET ÉMOTIONS BRUTES.<br>
+            UN DIALOGUE VIBRANT ENTRE COULEURS, FORMES ET REGARDS D'ARTISTES QUI REDÉFINISSENT LA SCÈNE ACTUELLE.
+          </p>
+        </div>
+      </section>
+
+      <!-- Slawn's Art Section -->
+      <section id="menu" class="py-24 px-8 bg-neutral">
+        <div class="max-w-screen-xl mx-auto">
+          <h2 class="font-heading text-4xl md:text-5xl font-bold text-primary tracking-heading leading-heading mb-16 uppercase text-center">
+            SLAWN'S ART
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <!-- Card 1 -->
+            <article class="bg-neutral">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6834.jpeg"
+                alt="Bully by Slawn"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                BULLY, 2024
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                ACRYLIC, INK AND SPRAY PAINT ON CANVAS, 58 × 128 CM
+              </p>
+            </article>
+            <!-- Card 2 -->
+            <article class="bg-neutral">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6834.jpeg"
+                alt="Three Arthurs by Slawn"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                THREE ARTHURS, 2024
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                ACRYLIC, INK AND SPRAY PAINT ON CANVAS, 118 × 128 CM
+              </p>
+            </article>
+            <!-- Card 3 -->
+            <article class="bg-neutral">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6834.jpeg"
+                alt="Ben by Slawn"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                BEN, 2024
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                ACRYLIC, INK AND SPRAY PAINT ON CANVAS, 128 × 118 CM
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Soldier's Art Section -->
+      <section id="soldier" class="py-24 px-8 bg-tertiary">
+        <div class="max-w-screen-xl mx-auto">
+          <h2 class="font-heading text-4xl md:text-5xl font-bold text-primary tracking-heading leading-heading mb-16 uppercase text-center">
+            SOLDIER'S ART
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <!-- Card 1 -->
+            <article class="bg-tertiary">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6835.jpeg"
+                alt="Ozioma by Soldierboyfriend"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                OZIOMA, 2023
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                ACRYLICS AND PIGMENTS ON COTTON CANVAS 48 × 38 CM
+              </p>
+            </article>
+            <!-- Card 2 -->
+            <article class="bg-tertiary">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6835.jpeg"
+                alt="Diamond Ring Effect by Soldierboyfriend"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                DIAMOND RING EFFECT, 2025
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                OIL ON CANVAS, 114 × 114 CM
+              </p>
+            </article>
+            <!-- Card 3 -->
+            <article class="bg-tertiary">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6835.jpeg"
+                alt="Scout Girl by Soldierboyfriend"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                SCOUT GIRL, 2025
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                OIL ON CANVAS, 48 × 38 CM
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kaws' Art Section -->
+      <section id="kaws" class="py-24 px-8 bg-neutral">
+        <div class="max-w-screen-xl mx-auto">
+          <h2 class="font-heading text-4xl md:text-5xl font-bold text-primary tracking-heading leading-heading mb-16 uppercase text-center">
+            KAW'S ART
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <!-- Card 1 -->
+            <article class="bg-neutral">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6836.jpeg"
+                alt="The Past by Kaws"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                THE PAST, 2014
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                SILKSCREEN 83 × 83 CM
+              </p>
+            </article>
+            <!-- Card 2 -->
+            <article class="bg-neutral">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6836.jpeg"
+                alt="Urge 5 by Kaws"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                URGE 5, 2023
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                URGE PORTFOLIO EXTRACT 43 × 32
+              </p>
+            </article>
+            <!-- Card 3 -->
+            <article class="bg-neutral">
+              <img
+                src="https://c.animaapp.com/mhsz12xyQNA2Py/img/img_6836.jpeg"
+                alt="Kimpsons by Kaws"
+                class="w-full h-auto object-cover mb-4"
+                loading="lazy"
+              />
+              <h3 class="font-heading text-sm font-bold text-primary tracking-heading leading-tight uppercase mb-2">
+                KIMPSONS, 2023
+              </h3>
+              <p class="text-secondary-foreground text-xs leading-relaxed">
+                ACRYLIC ON CANVAS 121 × 121 CM
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="py-16 px-8 bg-secondary">
+      <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="text-secondary-foreground font-heading text-xl font-bold tracking-heading">
+          SKYPPGALLERY
+        </div>
+        <div class="flex flex-col md:flex-row gap-6 md:gap-12 text-center md:text-left">
+          <a href="#support" class="text-secondary-foreground font-normal hover:underline transition-all duration-300">Support</a>
+          <a href="#contact" class="text-secondary-foreground font-normal hover:underline transition-all duration-300">Contact</a>
+          <a href="#legal" class="text-secondary-foreground font-normal hover:underline transition-all duration-300">Legal</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
